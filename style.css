@@ -1,0 +1,33 @@
+.w{
+				border-style: solid;
+				border-radius: 30px;
+				width: 150px;
+				height: 200px;
+				background-image: url("q.jpg");
+				background-size: 100% 100%;
+			}
+			.mdiv{
+				display: flex;
+			}
+			@keyframes flipp{
+				0%{
+					transform: rotateY(0deg);
+				}
+				50%{
+					transform: rotateY(90deg);
+				}
+				100%{
+					transform: rotateY(180deg);
+				}
+			}
+			@keyframes flippc{
+				0%{
+					transform: rotateY(180deg);
+				}
+				50%{
+					transform: rotateY(90deg);
+				}
+				100%{
+					transform: rotateY(0deg);
+				}
+			}

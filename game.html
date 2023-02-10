@@ -1,56 +1,10 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<style>
-			.w{
-				border-style: solid;
-				border-radius: 30px;
-				width: 150px;
-				height: 200px;
-				background-image: url("q.jpg");
-				background-size: 100% 100%;
-			}
-			.mdiv{
-				display: flex;
-			}
-			@keyframes flipp{
-				0%{
-					transform: rotateY(0deg);
-				}
-				50%{
-					transform: rotateY(90deg);
-				}
-				100%{
-					transform: rotateY(180deg);
-				}
-			}
-			@keyframes flippc{
-				0%{
-					transform: rotateY(180deg);
-				}
-				50%{
-					transform: rotateY(90deg);
-				}
-				100%{
-					transform: rotateY(0deg);
-				}
-			}
-		</style>
+		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 	<body>
 		<div id="m"></div>
-		<!-- <div class="mdiv">
-			<div class="w" id="p1" onclick="flipsc('p1','im1.jpg')"></div>
-			<div class="w" id="p2" onclick="flipsc('p2','im2.jpg')"></div>
-			<div class="w" id="p3" onclick="flipsc('p3','im3.jpg')"></div>
-			<div class="w" id="p4" onclick="flipsc('p4','im4.jpg')"></div>
-		</div>
-		<div class="mdiv">
-			<div class="w" id="p5" onclick="flipsc('p5','im1.jpg')"></div>
-			<div class="w" id="p6" onclick="flipsc('p6','im2.jpg')"></div>
-			<div class="w" id="p7" onclick="flipsc('p7','im3.jpg')"></div>
-			<div class="w" id="p8" onclick="flipsc('p8','im4.jpg')"></div>
-		</div> -->
 	</body>
 	<script src="script.js"></script>
 </html>
